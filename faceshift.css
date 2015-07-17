@@ -1,0 +1,10 @@
+#head-description {
+    position: absolute;
+    top: 15;
+    left: 15px;
+    z-index: 100;
+}
+
+#head-description h1, #head-description p {
+    color: #21ce77;
+}
