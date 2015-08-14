@@ -58,7 +58,7 @@ console.log("good");
                
     //load actual obj fule into scene and position it where we want it
     var loader = new THREE.OBJLoader(manager);
-    loader.load("model/Young.obj", function(theHead) {
+    loader.load("kim.obj", function(theHead) {
         theHeadContainer = new THREE.Object3D();
                     //feel free to manipulate all parameters below
         theHeadContainer.position.y= -80;
